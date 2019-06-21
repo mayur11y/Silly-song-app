@@ -87,8 +87,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func reset(_ sender: Any) {
-        nameField.text=""
-        lyricsView.text=""
+      //  nameField.text=""
+       // lyricsView.text=""
     }
     
     @IBAction func displayLyrics(_ sender: Any) {
