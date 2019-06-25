@@ -6,17 +6,222 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Silly SongTests_1/Silly_SongTests_1.swift"
+            timestampString = "582629273.64264"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Silly SongTests_1/Silly_SongTests_1.swift"
+            timestampString = "582629273.642903"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Silly SongTests_2/Silly_SongTests_2.swift"
-            timestampString = "582619881.567302"
+            filePath = "Silly SongTests_1/Silly_SongTests_1.swift"
+            timestampString = "582629273.642946"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "9"
             endingLineNumber = "9"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Silly SongUITests_1/Silly_SongUITests_1.swift"
+            timestampString = "583157993.462956"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "testValidateTextviewOutput()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x107a5e220">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Silly SongUITests_1/Silly_SongUITests_1.swift"
+            timestampString = "583157993.463509"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "testValidateTextviewOutput()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Silly SongUITests_1/Silly_SongUITests_1.swift"
+            timestampString = "583157993.463953"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "Silly_SongUITests_1"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Silly_SongUITests_1.Silly_SongUITests_1.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Silly_SongUITests_1.Silly_SongUITests_1"
+                  moduleName = "Silly SongUITests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mayur.yewale/Desktop/Swift%20codes/Silly%20Song/Silly%20SongUITests_1/Silly_SongUITests_1.swift"
+                  timestampString = "583063997.144541"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Silly_SongUITests_1.Silly_SongUITests_1.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Silly_SongUITests_1.Silly_SongUITests_1"
+                  moduleName = "Silly SongUITests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mayur.yewale/Desktop/Swift%20codes/Silly%20Song/Silly%20SongUITests_1/Silly_SongUITests_1.swift"
+                  timestampString = "583063997.146528"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Silly_SongUITests_1.Silly_SongUITests_1.__allocating_init(selector: ObjectiveC.Selector) -&gt; Silly_SongUITests_1.Silly_SongUITests_1"
+                  moduleName = "Silly SongUITests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mayur.yewale/Desktop/Swift%20codes/Silly%20Song/Silly%20SongUITests_1/Silly_SongUITests_1.swift"
+                  timestampString = "583063997.148443"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Silly_SongUITests_1.Silly_SongUITests_1.init(selector: ObjectiveC.Selector) -&gt; Silly_SongUITests_1.Silly_SongUITests_1"
+                  moduleName = "Silly SongUITests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mayur.yewale/Desktop/Swift%20codes/Silly%20Song/Silly%20SongUITests_1/Silly_SongUITests_1.swift"
+                  timestampString = "583063997.150406"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Silly_SongUITests_1.Silly_SongUITests_1.__allocating_init() -&gt; Silly_SongUITests_1.Silly_SongUITests_1"
+                  moduleName = "Silly SongUITests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mayur.yewale/Desktop/Swift%20codes/Silly%20Song/Silly%20SongUITests_1/Silly_SongUITests_1.swift"
+                  timestampString = "583063997.152401"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Silly_SongUITests_1.Silly_SongUITests_1.init() -&gt; Silly_SongUITests_1.Silly_SongUITests_1"
+                  moduleName = "Silly SongUITests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mayur.yewale/Desktop/Swift%20codes/Silly%20Song/Silly%20SongUITests_1/Silly_SongUITests_1.swift"
+                  timestampString = "583063997.155251"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Silly_SongUITests_1.Silly_SongUITests_1.__deallocating_deinit"
+                  moduleName = "Silly SongUITests_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mayur.yewale/Desktop/Swift%20codes/Silly%20Song/Silly%20SongUITests_1/Silly_SongUITests_1.swift"
+                  timestampString = "583063997.157643"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -2,9 +2,7 @@
 //  AppDelegate.swift
 //  Silly Song
 //
-//  Created by Mayur Yewale with  at MB on 6/14/19.
-//  Copyright © 2019 Mayur Yewale with  at MB. All rights reserved.
-//
+
 
 import UIKit
 

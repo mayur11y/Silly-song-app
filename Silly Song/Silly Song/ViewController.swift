@@ -2,8 +2,6 @@
 //  ViewController.swift
 //  Silly Song
 //
-//  Created by Mayur Yewale with  at MB on 6/14/19.
-//  Copyright © 2019 Mayur Yewale with  at MB. All rights reserved.
 //
 
 import UIKit
@@ -38,6 +36,7 @@ func shortNameFromName(name:String)->String
     }
     
     let index = str1.index(str1.startIndex, offsetBy: i-1)
+   // let index = str1.index(str1.startIndex, offsetBy: i)
     let str2 = str1.suffix(from: index)
     
     //if no vowels in string return whole string else return from first vowel
@@ -58,7 +57,7 @@ func lyricsForName(temp1:String,temp2:String)->String
     //short name return from function
     var str4=shortNameFromName(name: temp2)
     let index = temp2.index(temp2.startIndex, offsetBy:1)
-    
+   
     var str5=String()
     str5.append(temp2[temp2.startIndex])
     str5.append(contentsOf: temp2.suffix(from: index).lowercased())
@@ -79,6 +78,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var lyricsView: UITextView!
     
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -87,12 +88,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func reset(_ sender: Any) {
-      //  nameField.text=""
-       // lyricsView.text=""
+        nameField.text=""
+        lyricsView.text=""
     }
     
     @IBAction func displayLyrics(_ sender: Any) {
         lyricsView.text=lyricsForName(temp1:template,temp2:nameField.text!)
+        print(lyricsView)
     }
     
 }

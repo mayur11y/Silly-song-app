@@ -2,8 +2,6 @@
 //  Silly_SongTests_2.swift
 //  Silly SongTests_2
 //
-//  Created by Mayur Yewale with  at MB on 6/19/19.
-//  Copyright © 2019 Mayur Yewale with  at MB. All rights reserved.
 //
 
 import XCTest
@@ -19,7 +17,7 @@ class Silly_SongTests_2: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
-    func test_label_validate() {
+    func testLabelValidate() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -28,7 +26,7 @@ class Silly_SongTests_2: XCTestCase {
         XCTAssertEqual("Generate a Silly Song", login.label!.text)
     }
     
-    func test_name_empty() {
+    func testNameEmpty() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -37,7 +35,7 @@ class Silly_SongTests_2: XCTestCase {
         XCTAssertEqual("", login.nameField!.text!)
     }
     
-    func test_lyricsview_empty() {
+    func testLyricsviewEmpty() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -46,7 +44,7 @@ class Silly_SongTests_2: XCTestCase {
         XCTAssertEqual("", login.lyricsView!.text!)
     }
     
-    func test_name_placeholder() {
+    func testNamePlaceholder() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -55,7 +53,7 @@ class Silly_SongTests_2: XCTestCase {
         XCTAssertEqual("Enter your name", login.nameField!.placeholder!)
     }
     
-    func test_lyrics_output() {
+    func testLyricsOutput() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let login = storyboard.instantiateInitialViewController() as! ViewController
         let _ = login.view

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		572A87F322BA137D0083F034 /* Silly_SongTests_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572A87F222BA137D0083F034 /* Silly_SongTests_3.swift */; };
+		572A881422BA28D90083F034 /* Silly_SongTests_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572A881322BA28D90083F034 /* Silly_SongTests_2.swift */; };
+		572A882222BA3F6F0083F034 /* Silly_SongUITests_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572A882122BA3F6F0083F034 /* Silly_SongUITests_1.swift */; };
 		576B641222B360D900B6DCE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B641122B360D900B6DCE5 /* AppDelegate.swift */; };
 		576B641422B360D900B6DCE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B641322B360D900B6DCE5 /* ViewController.swift */; };
 		576B641722B360D900B6DCE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576B641522B360D900B6DCE5 /* Main.storyboard */; };
@@ -16,7 +17,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		572A87F522BA137D0083F034 /* PBXContainerItemProxy */ = {
+		572A881622BA28D90083F034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576B640622B360D500B6DCE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 576B640D22B360D500B6DCE5;
+			remoteInfo = "Silly Song";
+		};
+		572A882422BA3F6F0083F034 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 576B640622B360D500B6DCE5 /* Project object */;
 			proxyType = 1;
@@ -26,20 +34,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		572A87F022BA137D0083F034 /* Silly SongTests_3.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Silly SongTests_3.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		572A87F222BA137D0083F034 /* Silly_SongTests_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silly_SongTests_3.swift; sourceTree = "<group>"; };
-		572A87F422BA137D0083F034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572A880A22BA162E0083F034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572A881122BA28D90083F034 /* Silly SongTests_2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Silly SongTests_2.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		572A881322BA28D90083F034 /* Silly_SongTests_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silly_SongTests_2.swift; sourceTree = "<group>"; };
+		572A881522BA28D90083F034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572A881F22BA3F6F0083F034 /* Silly SongUITests_1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Silly SongUITests_1.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		572A882122BA3F6F0083F034 /* Silly_SongUITests_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silly_SongUITests_1.swift; sourceTree = "<group>"; };
+		572A882322BA3F6F0083F034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		576B640E22B360D900B6DCE5 /* Silly Song.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Silly Song.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		576B641122B360D900B6DCE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		576B641322B360D900B6DCE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		576B641622B360D900B6DCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		576B641822B360DB00B6DCE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		576B641B22B360DB00B6DCE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		576B641D22B360DB00B6DCE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		572A87ED22BA137D0083F034 /* Frameworks */ = {
+		572A880E22BA28D90083F034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572A881C22BA3F6F0083F034 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,20 +74,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		572A87F122BA137D0083F034 /* Silly SongTests_3 */ = {
+		572A881222BA28D90083F034 /* Silly SongTests_2 */ = {
 			isa = PBXGroup;
 			children = (
-				572A87F222BA137D0083F034 /* Silly_SongTests_3.swift */,
-				572A87F422BA137D0083F034 /* Info.plist */,
+				572A881322BA28D90083F034 /* Silly_SongTests_2.swift */,
+				572A881522BA28D90083F034 /* Info.plist */,
 			);
-			path = "Silly SongTests_3";
+			path = "Silly SongTests_2";
+			sourceTree = "<group>";
+		};
+		572A882022BA3F6F0083F034 /* Silly SongUITests_1 */ = {
+			isa = PBXGroup;
+			children = (
+				572A882122BA3F6F0083F034 /* Silly_SongUITests_1.swift */,
+				572A882322BA3F6F0083F034 /* Info.plist */,
+			);
+			path = "Silly SongUITests_1";
 			sourceTree = "<group>";
 		};
 		576B640522B360D500B6DCE5 = {
 			isa = PBXGroup;
 			children = (
 				576B641022B360D900B6DCE5 /* Silly Song */,
-				572A87F122BA137D0083F034 /* Silly SongTests_3 */,
+				572A881222BA28D90083F034 /* Silly SongTests_2 */,
+				572A882022BA3F6F0083F034 /* Silly SongUITests_1 */,
 				576B640F22B360D900B6DCE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				576B640E22B360D900B6DCE5 /* Silly Song.app */,
-				572A87F022BA137D0083F034 /* Silly SongTests_3.xctest */,
+				572A881122BA28D90083F034 /* Silly SongTests_2.xctest */,
+				572A881F22BA3F6F0083F034 /* Silly SongUITests_1.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,12 +115,12 @@
 		576B641022B360D900B6DCE5 /* Silly Song */ = {
 			isa = PBXGroup;
 			children = (
+				572A880A22BA162E0083F034 /* Info.plist */,
 				576B641122B360D900B6DCE5 /* AppDelegate.swift */,
 				576B641322B360D900B6DCE5 /* ViewController.swift */,
 				576B641522B360D900B6DCE5 /* Main.storyboard */,
 				576B641822B360DB00B6DCE5 /* Assets.xcassets */,
 				576B641A22B360DB00B6DCE5 /* LaunchScreen.storyboard */,
-				576B641D22B360DB00B6DCE5 /* Info.plist */,
 			);
 			path = "Silly Song";
 			sourceTree = "<group>";
@@ -99,23 +128,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		572A87EF22BA137D0083F034 /* Silly SongTests_3 */ = {
+		572A881022BA28D90083F034 /* Silly SongTests_2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 572A87F722BA137D0083F034 /* Build configuration list for PBXNativeTarget "Silly SongTests_3" */;
+			buildConfigurationList = 572A881822BA28D90083F034 /* Build configuration list for PBXNativeTarget "Silly SongTests_2" */;
 			buildPhases = (
-				572A87EC22BA137D0083F034 /* Sources */,
-				572A87ED22BA137D0083F034 /* Frameworks */,
-				572A87EE22BA137D0083F034 /* Resources */,
+				572A880D22BA28D90083F034 /* Sources */,
+				572A880E22BA28D90083F034 /* Frameworks */,
+				572A880F22BA28D90083F034 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				572A87F622BA137D0083F034 /* PBXTargetDependency */,
+				572A881722BA28D90083F034 /* PBXTargetDependency */,
 			);
-			name = "Silly SongTests_3";
-			productName = "Silly SongTests_3";
-			productReference = 572A87F022BA137D0083F034 /* Silly SongTests_3.xctest */;
+			name = "Silly SongTests_2";
+			productName = "Silly SongTests_2";
+			productReference = 572A881122BA28D90083F034 /* Silly SongTests_2.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		572A881E22BA3F6F0083F034 /* Silly SongUITests_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572A882622BA3F6F0083F034 /* Build configuration list for PBXNativeTarget "Silly SongUITests_1" */;
+			buildPhases = (
+				572A881B22BA3F6F0083F034 /* Sources */,
+				572A881C22BA3F6F0083F034 /* Frameworks */,
+				572A881D22BA3F6F0083F034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572A882522BA3F6F0083F034 /* PBXTargetDependency */,
+			);
+			name = "Silly SongUITests_1";
+			productName = "Silly SongUITests_1";
+			productReference = 572A881F22BA3F6F0083F034 /* Silly SongUITests_1.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		576B640D22B360D500B6DCE5 /* Silly Song */ = {
 			isa = PBXNativeTarget;
@@ -144,7 +191,11 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Mayur Yewale with  at MB";
 				TargetAttributes = {
-					572A87EF22BA137D0083F034 = {
+					572A881022BA28D90083F034 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 576B640D22B360D500B6DCE5;
+					};
+					572A881E22BA3F6F0083F034 = {
 						CreatedOnToolsVersion = 10.2.1;
 						TestTargetID = 576B640D22B360D500B6DCE5;
 					};
@@ -167,13 +218,21 @@
 			projectRoot = "";
 			targets = (
 				576B640D22B360D500B6DCE5 /* Silly Song */,
-				572A87EF22BA137D0083F034 /* Silly SongTests_3 */,
+				572A881022BA28D90083F034 /* Silly SongTests_2 */,
+				572A881E22BA3F6F0083F034 /* Silly SongUITests_1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		572A87EE22BA137D0083F034 /* Resources */ = {
+		572A880F22BA28D90083F034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572A881D22BA3F6F0083F034 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,11 +252,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		572A87EC22BA137D0083F034 /* Sources */ = {
+		572A880D22BA28D90083F034 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				572A87F322BA137D0083F034 /* Silly_SongTests_3.swift in Sources */,
+				572A881422BA28D90083F034 /* Silly_SongTests_2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572A881B22BA3F6F0083F034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572A882222BA3F6F0083F034 /* Silly_SongUITests_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,10 +280,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		572A87F622BA137D0083F034 /* PBXTargetDependency */ = {
+		572A881722BA28D90083F034 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 576B640D22B360D500B6DCE5 /* Silly Song */;
-			targetProxy = 572A87F522BA137D0083F034 /* PBXContainerItemProxy */;
+			targetProxy = 572A881622BA28D90083F034 /* PBXContainerItemProxy */;
+		};
+		572A882522BA3F6F0083F034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 576B640D22B360D500B6DCE5 /* Silly Song */;
+			targetProxy = 572A882422BA3F6F0083F034 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -240,19 +312,19 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		572A87F822BA137D0083F034 /* Debug */ = {
+		572A881922BA28D90083F034 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8VM7GG6DB6;
-				INFOPLIST_FILE = "Silly SongTests_3/Info.plist";
+				INFOPLIST_FILE = "Silly SongTests_2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mindbody.Silly-SongTests-3";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindbody.Silly-SongTests-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -260,23 +332,61 @@
 			};
 			name = Debug;
 		};
-		572A87F922BA137D0083F034 /* Release */ = {
+		572A881A22BA28D90083F034 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8VM7GG6DB6;
-				INFOPLIST_FILE = "Silly SongTests_3/Info.plist";
+				INFOPLIST_FILE = "Silly SongTests_2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mindbody.Silly-SongTests-3";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindbody.Silly-SongTests-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Silly Song.app/Silly Song";
+			};
+			name = Release;
+		};
+		572A882722BA3F6F0083F034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VM7GG6DB6;
+				INFOPLIST_FILE = "Silly SongUITests_1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindbody.Silly-SongUITests-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Silly Song";
+			};
+			name = Debug;
+		};
+		572A882822BA3F6F0083F034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VM7GG6DB6;
+				INFOPLIST_FILE = "Silly SongUITests_1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mindbody.Silly-SongUITests-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Silly Song";
 			};
 			name = Release;
 		};
@@ -435,11 +545,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		572A87F722BA137D0083F034 /* Build configuration list for PBXNativeTarget "Silly SongTests_3" */ = {
+		572A881822BA28D90083F034 /* Build configuration list for PBXNativeTarget "Silly SongTests_2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				572A87F822BA137D0083F034 /* Debug */,
-				572A87F922BA137D0083F034 /* Release */,
+				572A881922BA28D90083F034 /* Debug */,
+				572A881A22BA28D90083F034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572A882622BA3F6F0083F034 /* Build configuration list for PBXNativeTarget "Silly SongUITests_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572A882722BA3F6F0083F034 /* Debug */,
+				572A882822BA3F6F0083F034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

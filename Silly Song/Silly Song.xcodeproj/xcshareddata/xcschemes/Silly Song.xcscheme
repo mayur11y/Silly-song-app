@@ -32,27 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "572A87D322B9F5320083F034"
-               BuildableName = "Silly SongTests_1.xctest"
-               BlueprintName = "Silly SongTests_1"
-               ReferencedContainer = "container:Silly Song.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "572A87C522B8ED300083F034"
-               BuildableName = "Silly SongTests.xctest"
-               BlueprintName = "Silly SongTests"
-               ReferencedContainer = "container:Silly Song.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "572A87E122BA0B9B0083F034"
+               BlueprintIdentifier = "572A881022BA28D90083F034"
                BuildableName = "Silly SongTests_2.xctest"
                BlueprintName = "Silly SongTests_2"
                ReferencedContainer = "container:Silly Song.xcodeproj">
@@ -62,9 +42,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "572A87EF22BA137D0083F034"
-               BuildableName = "Silly SongTests_3.xctest"
-               BlueprintName = "Silly SongTests_3"
+               BlueprintIdentifier = "572A881E22BA3F6F0083F034"
+               BuildableName = "Silly SongUITests_1.xctest"
+               BlueprintName = "Silly SongUITests_1"
                ReferencedContainer = "container:Silly Song.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -2,8 +2,7 @@
 //  Silly_SongUITests_1.swift
 //  Silly SongUITests_1
 //
-//  Created by Mayur Yewale with  at MB on 6/19/19.
-//  Copyright © 2019 Mayur Yewale with  at MB. All rights reserved.
+//  Copyright © 2019 Mayur Yewale.
 //
 
 import XCTest
@@ -16,18 +15,18 @@ class Silly_SongUITests_1: XCTestCase {
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        XCUIApplication().terminate()
     }
     
     //Test case to validate label on app
-    func test_Validate_Label(){
+    func testValidateLabel(){
         let label = XCUIApplication().staticTexts["Generate a Silly Song"]
         XCTAssertNotNil(label.label.range(of:"Generate a Silly Song"))
         XCTAssertTrue(label.exists)
     }
     
     //Test case to validate placeholder in textfield
-    func test_Validate_Placeholder(){
+    func testValidatePlaceholder(){
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
         var str = enterYourNameTextField.placeholderValue
@@ -35,21 +34,21 @@ class Silly_SongUITests_1: XCTestCase {
     }
     
     //Test case to validate textfield
-    func test_Validate_Textfield(){
+    func testValidateTextfield(){
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
         XCTAssertTrue(enterYourNameTextField.exists)
     }
     
     //Test case to validate textview
-    func test_Validate_Textview(){
+    func testValidateTextview(){
         let app = XCUIApplication()
         let textview=app.otherElements.containing(.staticText, identifier:"Generate a Silly Song").children(matching: .textView).element
         XCTAssertTrue(textview.exists)
     }
     
     //Test case to validate textview output
-    func test_Validate_TextviewOutput() {
+    func testValidateTextviewOutput() {
 
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
@@ -68,11 +67,11 @@ class Silly_SongUITests_1: XCTestCase {
         
         XCTAssertEqual(x, str)
         enterYourNameTextField.tap()
-        XCUIApplication().terminate()
+      //  XCUIApplication().terminate()
     }
     
     //Test case to enter text which start with vowel and end with consonant
-    func test_Text_Startwith_Vowel_And_Then_Consonant() {
+    func testTextStartwithVowelAndThenConsonant() {
 
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
@@ -91,11 +90,11 @@ class Silly_SongUITests_1: XCTestCase {
         
         XCTAssertEqual(x, str)
         enterYourNameTextField.tap()
-        XCUIApplication().terminate()
+      //  XCUIApplication().terminate()
     }
     
     //Test case to enter text which start with consonant and end with vowel
-    func test_Text_Startwith_Consonant_And_Then_Vowel() {
+    func testTextStartwithConsonantAndThenVowel() {
 
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
@@ -113,11 +112,11 @@ class Silly_SongUITests_1: XCTestCase {
         let str="Ted, Ted, Bo Bed\nBanana Fana Fo Fed\nMe My Mo Med\nTed"
         XCTAssertEqual(x, str)
         enterYourNameTextField.tap()
-        XCUIApplication().terminate()
+       // XCUIApplication().terminate()
     }
     
     //Test case to enter text which has all consonant
-    func test_AllConsonants() {
+    func testAllConsonants() {
     
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
@@ -136,11 +135,11 @@ class Silly_SongUITests_1: XCTestCase {
         
         XCTAssertEqual(x, str)
         enterYourNameTextField.tap()
-        XCUIApplication().terminate()
+      //  XCUIApplication().terminate()
     }
     
     //Test case to enter text which has all vowels
-    func test_AllVowels() {
+    func testAllVowels() {
         
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
@@ -159,6 +158,6 @@ class Silly_SongUITests_1: XCTestCase {
         XCTAssertEqual(x, str)
         XCTAssertTrue(textview.exists)
         enterYourNameTextField.tap()
-        XCUIApplication().terminate()
+       // XCUIApplication().terminate()
     }
 }
