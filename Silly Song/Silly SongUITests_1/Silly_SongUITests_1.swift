@@ -18,36 +18,39 @@ class Silly_SongUITests_1: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
     //Test case to validate label on app
-    func test_validate_label(){
+    func test_Validate_Label(){
         let label = XCUIApplication().staticTexts["Generate a Silly Song"]
-    XCTAssertNotNil(label.label.range(of:"Generate a Silly Song"))
+        XCTAssertNotNil(label.label.range(of:"Generate a Silly Song"))
         XCTAssertTrue(label.exists)
     }
+    
     //Test case to validate placeholder in textfield
-    func test_validate_placeholder(){
+    func test_Validate_Placeholder(){
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
-        //XCTAssertTrue(enterYourNameTextField.exists)
         var str = enterYourNameTextField.placeholderValue
         XCTAssertEqual("Enter your name", str)
     }
+    
     //Test case to validate textfield
-    func test_validate_textfield(){
+    func test_Validate_Textfield(){
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
         XCTAssertTrue(enterYourNameTextField.exists)
     }
+    
     //Test case to validate textview
-    func test_validate_textview(){
+    func test_Validate_Textview(){
         let app = XCUIApplication()
         let textview=app.otherElements.containing(.staticText, identifier:"Generate a Silly Song").children(matching: .textView).element
         XCTAssertTrue(textview.exists)
     }
+    
     //Test case to validate textview output
-    func test_validate_textviewoutput() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test_Validate_TextviewOutput() {
+
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
         
@@ -67,10 +70,10 @@ class Silly_SongUITests_1: XCTestCase {
         enterYourNameTextField.tap()
         XCUIApplication().terminate()
     }
+    
     //Test case to enter text which start with vowel and end with consonant
-    func test_text_startwith_vowel_and_then_consonant() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test_Text_Startwith_Vowel_And_Then_Consonant() {
+
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
         
@@ -90,10 +93,10 @@ class Silly_SongUITests_1: XCTestCase {
         enterYourNameTextField.tap()
         XCUIApplication().terminate()
     }
+    
     //Test case to enter text which start with consonant and end with vowel
-    func test_text_startwith_Consonant_and_then_vowel() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test_Text_Startwith_Consonant_And_Then_Vowel() {
+
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
         
@@ -112,10 +115,10 @@ class Silly_SongUITests_1: XCTestCase {
         enterYourNameTextField.tap()
         XCUIApplication().terminate()
     }
+    
     //Test case to enter text which has all consonant
-    func test_allConsonants() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test_AllConsonants() {
+    
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
 
@@ -135,10 +138,10 @@ class Silly_SongUITests_1: XCTestCase {
         enterYourNameTextField.tap()
         XCUIApplication().terminate()
     }
+    
     //Test case to enter text which has all vowels
-    func test_allVowels() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test_AllVowels() {
+        
         let app = XCUIApplication()
         let enterYourNameTextField = app.textFields["Enter your name"]
         
