@@ -67,7 +67,7 @@ class Silly_SongUITests_1: XCTestCase {
         
         XCTAssertEqual(x, str)
         enterYourNameTextField.tap()
-      //  XCUIApplication().terminate()
+      
     }
     
     //Test case to enter text which start with vowel and end with consonant
@@ -90,7 +90,7 @@ class Silly_SongUITests_1: XCTestCase {
         
         XCTAssertEqual(x, str)
         enterYourNameTextField.tap()
-      //  XCUIApplication().terminate()
+      
     }
     
     //Test case to enter text which start with consonant and end with vowel
@@ -112,7 +112,7 @@ class Silly_SongUITests_1: XCTestCase {
         let str="Ted, Ted, Bo Bed\nBanana Fana Fo Fed\nMe My Mo Med\nTed"
         XCTAssertEqual(x, str)
         enterYourNameTextField.tap()
-       // XCUIApplication().terminate()
+       
     }
     
     //Test case to enter text which has all consonant
@@ -135,7 +135,7 @@ class Silly_SongUITests_1: XCTestCase {
         
         XCTAssertEqual(x, str)
         enterYourNameTextField.tap()
-      //  XCUIApplication().terminate()
+      
     }
     
     //Test case to enter text which has all vowels
@@ -158,6 +158,7 @@ class Silly_SongUITests_1: XCTestCase {
         XCTAssertEqual(x, str)
         XCTAssertTrue(textview.exists)
         enterYourNameTextField.tap()
-       // XCUIApplication().terminate()
+       
+        
     }
 }
